@@ -87,7 +87,7 @@ h1,h2,h3,h4{
     max-width: 85vw;
     margin: 0 auto;
     text-align: center;
-    
+    vertical-align: middle;
 }
 
 
