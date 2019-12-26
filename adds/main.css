@@ -73,6 +73,7 @@ h1,h2,h3,h4{
     background: linear-gradient( rgba(0, 32, 0, .55), rgba(0, 0, 80, .4) ), url(../adds/img/460652.jpg) center no-repeat;
     background-size: cover;
     text-align: center;
+    vertical-align: middle;
 }
 
 
@@ -87,7 +88,6 @@ h1,h2,h3,h4{
     max-width: 85vw;
     margin: 0 auto;
     text-align: center;
-    vertical-align: middle;
 }
 
 
