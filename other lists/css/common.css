@@ -115,6 +115,15 @@ h1,h2,h3,h4{
     margin-left: 15px;
     margin-right: 25px;
 }
+.images_grid
+{
+    display: inline-grid;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    margin-left: 15px;
+    margin-right: 25px;
+}
+
 
 .img_size
 {
@@ -140,8 +149,8 @@ h1,h2,h3,h4{
 
 .img_mini_item_alt
 {
-    max-height: 40vh;
-    max-width: 20vw;
+    max-height: 35vh;
+    max-width: 22vw;
     position:relative;
     align-items: center; 
     margin-left: 1.3vw;
@@ -197,11 +206,24 @@ h1,h2,h3,h4{
 }
 .size_img2
 {
-    width: 20vw;
-    padding-left: 2vw; 
-    position: static;
-    margin: 0 3vh;
+    width: 21.1vw;
+    height: 34vh;
+    position: relative;
 }
+
+.contacts
+{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    padding: 90px 0;
+    justify-content: center;
+    background: linear-gradient( rgba(0, 32, 0, .55), rgba(0, 0, 80, .4) ) center;
+    background-size: cover;
+    text-align: center;
+}
+
 
 
 .btn 
