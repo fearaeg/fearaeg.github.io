@@ -1,0 +1,86 @@
+.ca
+{
+    text-align: center;
+}
+.ra
+{
+    text-align: right;
+}
+
+.border {
+list-style: none;
+    padding: 15px;
+width: 70vw;
+}
+.border ul
+{
+    list-style-type: disc;
+}
+.border ol
+{
+    list-style-type: lower-latin;
+}
+.border li 
+{
+font-family: "Calibri";
+padding: 6px 12px;
+margin-bottom: 8px;
+border-radius: 6px;
+border-left: 6px solid; 
+box-shadow: 1px -1px 3px 0 rgba(0,0,0,.2),
+     -1px -1px 3px 0 rgba(0,0,0,.2),
+    1px 1px 3px 0 rgba(0,0,0,.2),
+    -1px 1px 3px 0 rgba(0,0,0,.2);
+font-size: 19px;
+transition: 0.8s all ease-in;
+}
+.border li:nth-child(5n+1) 
+{
+  border-color: #2284a3;
+}
+.border li:nth-child(5n+2) 
+{
+  border-color: #84a322;
+}
+.border li:nth-child(5n+3) 
+{
+  border-color: #b69135;
+}
+.border li:nth-child(5n+4) 
+{
+  border-color: #9135b6;
+}
+.border li:nth-child(10n) 
+{
+  border-color: #888;
+}
+.border li:nth-child(10n+5) 
+{
+  border-color: #543210;
+}
+
+    .border li:nth-child(5n+1):hover 
+    {
+        background-color: #2284a3
+    }
+    .border li:nth-child(5n+2):hover 
+    {
+        background-color: #84a322
+    }
+    .border li:nth-child(5n+3):hover 
+    {
+        background-color: #b69135
+    }
+    .border li:nth-child(5n+4):hover 
+    {
+        background-color: #9135b6
+    }
+    .border li:nth-child(10n):hover 
+    {
+        background-color: #888
+    }
+    .border li:nth-child(10n+5):hover 
+    {
+        background-color: #abdcef;
+    }
+

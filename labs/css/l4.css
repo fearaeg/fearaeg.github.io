@@ -1,0 +1,42 @@
+.w
+{
+    list-style-type: "\25B0";
+    font-size: 100%;
+    color: #40FF40;
+    
+    max-width: 200px;
+}
+.w > li {
+
+  color: black;
+padding-right: -60vw;
+}
+
+.w > ll {
+
+  font-size: 80%;
+}
+.w > lk {
+	color: #40FF40;
+  font-size: 166%;
+}
+.w > lk2 {
+	color: #40FF40;
+  font-size: 111%;
+
+}
+    .w > ll:hover, li:hover {
+        background: yellow;
+        color: green;
+    }
+.green
+{
+    color: #40FF40;
+    font-size: 80%;
+}
+
+.text
+{
+    color: black;
+    text-decoration: none;
+}
